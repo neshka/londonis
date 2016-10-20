@@ -1,12 +1,32 @@
-  * {
+  h1 {
   font-family: 'Georgia', 'Times', serif;
 }
 
-a {
+  h2 {
+  font-family: 'Georgia', 'Times', serif;
+}
+
+  p {
+  font-family: 'Georgia', 'Times', serif;
+}
+
+  a {
   color: SeaGreen;
   text-decoration: none;
 }
 
-img {
+  ul {
+  font-family: 'Georgia', 'Times', serif;
+}
+
+  ol {
+  font-family: 'Georgia', 'Times', serif;
+}
+
+  img {
   border-radius: 100%;
 } 
+
+  * {
+  font-family: 'Georgia', 'Times', serif;
+}
