@@ -1,4 +1,10 @@
-  h1 {
+body {
+    background-image: url("https://media.timeout.com/images/100644443/image.jpg");
+    background-color: #cccccc;
+}
+
+  h1, h2 {
+  color: White;
   font-family: 'Georgia', 'Times', serif;
 }
 
