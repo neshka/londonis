@@ -1,11 +1,11 @@
 body {
     background-image: url("https://media.timeout.com/images/100644443/image.jpg");
-    background-color: #cccccc;
+    background-color: rgba(22, 34, 88, 0.4);
 }
 
   h1, h2 {
   color: Red;
-  background-color: Blue;
+  background-color: rgba(22, 34, 88, 0.4);
 }
 
   h2 {
