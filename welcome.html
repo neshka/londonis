@@ -10,15 +10,15 @@
 
   <style>
   .bg-1 {
-    background-color: #ff1a1a; /* blue */
-    color: #ffffff;
+    background-color: #ff1a1a;
+    color: #555555;
   }
   .bg-2 {
-    background-color: #000066; /* red */
-    color: #ffffff;
+    background-color: #ffffff; 
+    color: #555555;
   }
   .bg-3 {
-    background-color: #ffffff; /* White */
+    background-color: #000066; 
     color: #555555;
   }
 
@@ -33,35 +33,56 @@
 </head>
 <body>
 
+ <nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Me</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">WHO</a></li>
+        <li><a href="#">WHAT</a></li>
+        <li><a href="#">WHERE</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
 <div class="container-fluid bg-1 text-center">
-<h3>The capital</h3>
-<img src="hello-london.jpg" class="img-circle" alt="hello-london">
+<h3>The Capital</h3>
+<img src="hello-london.jpg" class="img-responsive" style="display:inline" alt="Image" class="img-rounded" width="1104" height="506 alt="hello-london">
 <h3>This is London, baby!</h3>
 </div>
 <div class="container-fluid bg-2 text-center">
-  <h3>Little bit of history</h3>
+  <h3>Little Bit Of History</h3>
   <p>Lorem ipsum..</p>
   <a href="#" class="btn btn-default btn-lg">Search  <span class="glyphicon glyphicon-search"></span></a>
 </div>
 
 <div class="container-fluid bg-3 text-center">
-  <h3>The River Thames</h3>
+  <h3>My Favourite Places</h3>
   <div class="row">
     <div class="col-sm-3">
-      <p>Lorem ipsum..</p>
-      <img src="postmanspark.jpg" alt="Image">
+      <p>Postman's Park</p>
+      <img src="postmanspark.jpg" class="img-responsive" style="display:inline" alt="Image" width="304" height="236">
     </div>
     <div class="col-sm-3">
-      <p>Lorem ipsum..</p>
-      <img src="St_James_square.jpg" alt="Image">
+      <p>St James Square</p>
+      <img src="St_James_square.jpg" class="img-responsive" style="display:inline" alt="Image" width="304" height="236">
     </div>
     <div class="col-sm-3">
-      <p>Lorem ipsum..</p>
-      <img src="TrafalgarSquare.jpg" alt="Image">
+      <p>Trafalgar Square</p>
+      <img src="TrafalgarSquare.jpg" class="img-responsive" style="display:inline" alt="Image" width="304" height="236">
     </div>
     <div class="col-sm-3">
-      <p>Lorem ipsum..</p>
-      <img src="waterloo_bridge_night_m.jpg" alt="Image">
+      <p>View From Waterloo Bridge</p>
+      <img src="waterloo_bridge_night_m.jpg" class="img-responsive" style="display:inline" alt="Image" width="304" height="236">
     </div>
   </div>
 </div>
